@@ -38,6 +38,27 @@
 // document.write("yah! i can write HTML.Content through JavaScript");
 
 
-var abc = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+// var abc = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 
-alert(abc);
+// alert(abc);
+
+
+
+                        // variables for NUmber
+
+
+
+// var age = "i am 18 years old";
+
+// alert(age);
+
+
+// var VisitTime = "you have visited this site 23 times";
+
+
+// alert(VisitTime);
+
+
+// document.write("my birth year is 1996");
+
+// document.write("John Doe ordered 5 T-shirt(s) on XYZ Clothing store");
