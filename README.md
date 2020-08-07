@@ -1,3 +1,3 @@
 # javascript-exercises
 
-variables for strings
+variables for NUmber
