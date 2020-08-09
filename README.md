@@ -1,3 +1,3 @@
 # javascript-exercises
 
-# chapter - 5
+# chapter - 6 to 9
