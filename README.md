@@ -1,3 +1,4 @@
 # javascript-exercises
 
-variables for strings
+
+# chapter - 2
