@@ -1,5 +1,5 @@
 
-                          //  alert
+                          //  Alert chapter 1
 
 // alert("Error! please enter a vaild password");
 
@@ -14,7 +14,7 @@
 
 
 
-                        // variables for String
+                        // variables for String   chapter 2
 
 // var UserName; // declared variable
 
@@ -44,7 +44,7 @@
 
 
 
-                        // variables for NUmber
+                        // variables for NUmber   chapter 3
 
 
 
@@ -66,13 +66,13 @@
 
 
 
-                        // VARIABLE NAMES: LEGAL & ILLEGAL
+                        // VARIABLE NAMES: LEGAL & ILLEGAL   chapter 4
 
 
 // var name = "John Doe", userName = "user58", age = 23;
 
 
-// 5 legal  variable names.
+// // 5 legal  variable names.
 
 // var name;
 // var fullName;
@@ -80,7 +80,7 @@
 // var _userName
 // var Name;
 
-// 5 illegal variable names
+// // 5 illegal variable names
 
 // Var var;
 // var 1j;
@@ -92,7 +92,7 @@
 
 
 
-                        // MATH EXPRESSIONS
+                        // MATH EXPRESSIONS  chapter 5
 
 
 
@@ -277,11 +277,11 @@ your browser
 
 // document.write("<h1>Marks Sheet</h1>" + "<br />" + "<br />");
 
-// var totalMarks = 980;
+// var totalMarks = 100;
 
 // document.write("Total marks is :" + totalMarks + "<br />" + "<br />");
 
-// var marksObtaiant = 804;
+// var marksObtaiant = 34;
 
 // document.write("Marks Obtaian is :" + marksObtaiant + "<br />" + "<br />");
 
@@ -344,3 +344,130 @@ years old”.
 // var data1 = maxAge - currentAge;
 // var data2 = perDaySnack*data1;
 // document.writeln("you will need"+" "+data2+" "+"chocolate chip to last you until the ripe old age of"+" "+maxAge)
+
+
+
+                        // MATH EXPRESSIONS chapter 6 to 9
+
+/*
+
+1. Write a program to take a number in a variable, do the
+required arithmetic to display the following result in your browser
+
+*/
+
+
+// var a = 10;
+ 
+// document.write("Result" + "<br />" + a + "<hr />");
+
+
+// ++a;
+
+// document.write("The value of ++a is : "  + a + "<br />");
+
+// document.write("Now the value of a is : "  + a + "<br />" + "<br />" + "<br />");
+
+// a++;
+
+// document.write("The value of a++ is : "  + "11" + "<br />");
+// document.write("Now the value of a is : "  + a + "<br />" + "<br />" + "<br />");
+
+
+// --a;
+
+// document.write("The value of --a is : "  + a + "<br />");
+// document.write("Now the value of a is : "  + a + "<br />" + "<br />" + "<br />");
+
+
+// a--;
+
+
+// document.write("The value of a-- is : "  + "11" + "<br />");
+// document.write("Now the value of a is : "  + a + "<br />" + "<br />" + "<br />");
+
+
+/* 
+
+2. What will be the output in variables a, b & result after
+execution of the following script:
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
+Explain the output at each stage:
+
+*/
+
+
+// var a = 2;
+
+// document.write("a is" + " " + a + "<br />");
+
+// var b = 1;
+
+// document.write("b is" + " " + b + "<br />");
+
+// var result = --a - --b + ++b + --b;
+
+// document.write("result is" + " " + result + "<br />");
+
+
+ 
+/*
+
+3. Write a program that takes input a name from user &
+greet the user.
+4.
+5. Write a program to take input a number from user &
+display it’s multiplication table on your browser. If user
+does not enter a new number, multiplication table of 5
+should be displayed by default.
+
+
+6. Take
+a) Take three subjects name from user and store them in 3
+different variables.
+b) Total marks for each subject is 100, store it in another
+variable.
+c) Take obtained marks for first subject from user and
+stored it in different variable.
+
+ALERTS | JAVASCRIPT
+
+Page 3 of 3
+d) Take obtained marks for remaining 2 subjects from user
+and store them in variables.
+e) Now calculate total marks and percentage and show the
+result in browser like this.(Hint: user table)
+
+*/
+
+var UserName = prompt("Plese type your Name");
+document.write("UserName is" + " : " + UserName + "<br />" + "<br />" + "<br />");
+
+document.write("Subject Total Marks obtained Marks Percentage");
+
+var SubjectName1 = prompt("Plese type your subject-1");
+var totalMarks = 100;
+var marksObtaiant = +prompt("Plese type your Obtaiantmarks");
+var Percentage = totalMarks / marksObtaiant * 100;
+
+var SubjectName2 = prompt("Plese type your subject-2");
+var totalMarks = 100;
+var marksObtaiant = +prompt("Plese type your Obtaiantmarks");
+var Percentage = totalMarks / marksObtaiant * 100;
+
+var SubjectName3 = prompt("Plese type your subject-3");
+var totalMarks = 100;
+var marksObtaiant = +prompt("Plese type your Obtaiantmarks");
+var Percentage = totalMarks / marksObtaiant * 100;
+
+document.write("<br />" + SubjectName1 + " "  + " " + totalMarks + " " + " " + marksObtaiant + " " + " " + Percentage.toFixed(3));
+document.write("<br />" + SubjectName2 + " "  + " " + totalMarks + " " + " " + marksObtaiant + " " + " " + Percentage.toFixed(3));
+document.write("<br />" + SubjectName3 + " "  + " " + totalMarks + " " + " " + marksObtaiant + " " + " " + Percentage.toFixed(3));
+
+
+var result = totalMarks + totalMarks + totalMarks;
+var result1 = marksObtaiant + marksObtaiant + marksObtaiant;
+var result2 = Percentage + Percentage + Percentage;
+
+document.write(result + result1 + result2);
