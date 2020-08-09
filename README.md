@@ -1,3 +1,4 @@
 # javascript-exercises
 
-Alert in javascript
+
+# chapter - 1
