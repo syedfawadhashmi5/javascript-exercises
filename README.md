@@ -1,3 +1,4 @@
 # javascript-exercises
 
-variables for NUmber
+
+# chapter - 3
