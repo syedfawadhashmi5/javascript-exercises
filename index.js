@@ -473,7 +473,7 @@ result in browser like this.(Hint: user table)
 // document.write(result + result1 + result2);
 
 
-                        // USER INPUT & CONDITIONAL STATEMENT  chapter 5
+                        // USER INPUT & CONDITIONAL STATEMENT  chapter 9 to 11
 
 
 /* 
