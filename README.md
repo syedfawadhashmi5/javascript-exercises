@@ -1,3 +1,3 @@
 # javascript-exercises
 
-Book Which I Covered
+chapter - 12 to 13
